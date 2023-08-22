@@ -3,4 +3,5 @@ require "conor.keymaps"
 require "conor.plugins"
 require "conor.colorscheme"
 require "conor.cmp"
+require "conor.lsp"
 
