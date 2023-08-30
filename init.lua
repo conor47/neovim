@@ -5,6 +5,7 @@ require "conor.colorscheme"
 require "conor.cmp"
 require "conor.lsp"
 require "conor.telescope"
+require "conor.treesitter"
 
 
 
