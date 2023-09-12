@@ -4,7 +4,8 @@ local servers = {
 	"jsonls",
   "tsserver",
   "rust_analyzer",
-  "eslint"
+  "eslint",
+  "js-debug-adapter"
 }
 
 local settings = {

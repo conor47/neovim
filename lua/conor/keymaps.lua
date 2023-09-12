@@ -83,3 +83,7 @@ keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
 
 -- Nvim Tree
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
+
+-- dap 
+keymap("n", "<leader>db", "<cmd> DapToggleBreakpoint <CR>", opts)
+keymap("n", "<leader>dr", "<cmd> DapContinue <CR>", opts)
