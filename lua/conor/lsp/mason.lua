@@ -3,7 +3,8 @@ local servers = {
 	"pyright",
 	"jsonls",
   "tsserver",
-  "rust_analyzer"
+  "rust_analyzer",
+  "eslint"
 }
 
 local settings = {
