@@ -1,4 +1,4 @@
-require "conor.options" 
+require "conor.options"
 require "conor.keymaps"
 require "conor.plugins"
 require "conor.colorscheme"
@@ -6,6 +6,4 @@ require "conor.cmp"
 require "conor.lsp"
 require "conor.telescope"
 require "conor.treesitter"
-
-
-
+require "conor.nvim-tree"

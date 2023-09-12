@@ -80,3 +80,6 @@ keymap("n", "<C-h>", "<cmd TmuxNavigateUp<CR>", opts)
 -- keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>", opts)
 keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
 keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
+
+-- Nvim Tree
+keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
