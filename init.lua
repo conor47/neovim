@@ -258,6 +258,10 @@ require('lazy').setup {
         virt_text_priority = 100,
       },
     },
+    config = function()
+      require('gitsigns').setup()
+      vim.keymap.set('n', '<leader>gb', require('gitsigns').blame_line, { desc = 'Git Blame' })
+    end,
   },
 
   -- NOTE: Plugins can also be configured to run lua code when they are loaded.
